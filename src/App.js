@@ -1,11 +1,11 @@
-
+import './scss/app.scss'
+import { SkillsPage } from './pages/SkillsPage'
+import { ProjectsPage } from './pages/ProjectsPage';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <ProjectsPage/>
   );
 }
-
+ 
 export default App;
