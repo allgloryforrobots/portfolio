@@ -1,6 +1,5 @@
 import './scss/app.scss'
-import { SkillsPage } from './pages/SkillsPage'
-import { ProjectsPage } from './pages/ProjectsPage';
+import { ProjectsPage } from './pages/'
 
 function App() {
   return (

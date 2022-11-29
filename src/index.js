@@ -1,12 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-import App from './App';
+import './fonts/DINPro.ttf'
+import './fonts/DINPro-Bold.ttf'
+import './fonts/DINPro-Black.ttf'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from './App'
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-);
+)
 

@@ -1,3 +1,36 @@
 @import 'libs/variables';
 @import 'libs/normalize';
-@import 'components/sample'
+@import 'components/all';
+
+@font-face {
+    font-family: "DINPro";
+    src: local("DINPro"), url("../fonts/DINPro.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "DINPro";
+    src: local("DINPro"), url("../fonts/DINPro-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "DINPro";
+    src: local("DINPro"), url("../fonts/DINPro-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+* {
+    font-family: "DINPro";
+}
+
+
+.content {
+    &__top {
+
+    }
+
+    &--error {
+
+    }
+}
