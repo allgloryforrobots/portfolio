@@ -1,10 +1,20 @@
 import './scss/app.scss'
-import { ProjectsPage } from './pages/'
+import { Routes, Route } from 'react-router-dom';
+import { MainPage, ContactsPage, ProjectsPage, SkillsPage } from './pages/'
 
 function App() {
+
   return (
-    <ProjectsPage/>
+
+    <Routes>
+      <Route path="/" element={<MainPage/>}></Route>
+      <Route path="/contacts" element={<ContactsPage/>}></Route>
+      <Route path="/projects" element={<ProjectsPage/>}></Route>
+      <Route path="/skills" element={<SkillsPage/>}></Route>
+    </Routes>
+
   );
+
 }
  
 export default App;

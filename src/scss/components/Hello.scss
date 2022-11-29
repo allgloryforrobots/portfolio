@@ -1,0 +1,38 @@
+.hello {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-size: 4rem;
+    }
+
+    &__about {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        .menu__item {
+            display: flex;
+            justify-content: end;
+            width: 8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 0.2rem;
+        }
+    }
+    
+
+}
