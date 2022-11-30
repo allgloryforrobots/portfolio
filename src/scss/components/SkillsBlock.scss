@@ -1,0 +1,20 @@
+.skill-block {
+
+    width: max-content;
+    border: 1px solid silver;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: minmax(40vw, 20rem) minmax(40vw, 20rem);
+    grid-auto-rows: minmax(40vh, 20rem);
+
+    .skill-block__card {
+        background-color: white;
+    }
+}
