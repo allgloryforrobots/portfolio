@@ -1,7 +1,6 @@
 .skill-block {
 
     width: max-content;
-    border: 1px solid silver;
 
     position: absolute;
     top: 40%;
@@ -14,7 +13,21 @@
     grid-template-columns: minmax(40vw, 20rem) minmax(40vw, 20rem);
     grid-auto-rows: minmax(40vh, 20rem);
 
-    .skill-block__card {
-        background-color: white;
+    &__card {
+        
+    }
+
+    &__title {
+        font-weight: 700;
+    }
+
+    &__header {
+        font-weight: 900;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__section {
+        margin-bottom: 1rem;
     }
 }
