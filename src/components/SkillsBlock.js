@@ -10,26 +10,28 @@ export const SkillsBlock= () => {
                 </div>
 
                 <div className='skill-block__section'>
-                    <div className='skill-block__title'>☀️  Frontend:</div>
+                    <div className='skill-block__title'>☀️  Frontend</div>
                     <div className='skill-block__row'>JavaScript (ES6+)</div>
                     <div className='skill-block__row'>Pure JS OOP</div>
                     <div className='skill-block__row'>SCSS</div>
                     <div className='skill-block__row'>Semantic UI</div>
                     <div className='skill-block__row'>Gulp / Rollup</div>
-                    <div className='skill-block__row'></div>
-                    <div className='skill-block__row'></div>
+                    <div className='skill-block__row'>Chart JS</div>
+                    <div className='skill-block__row'>Canvas</div>
                     <div className='skill-block__row'></div>
                 </div>
 
                 <div className='skill-block__section'>
-                    <div className='skill-block__title'>🌙  Backend:</div>
+                    <div className='skill-block__title'>🌙  Backend</div>
                     <div className='skill-block__row'>Node.JS / Express </div>
                     <div className='skill-block__row'>WebSocket</div>
                 </div>
 
                 <div className='skill-block__section'>
-                    <div className='skill-block__title'>About:</div>
-                    <div className='skill-block__row'>Node.JS / Express </div>
+                    <div className='skill-block__title'>About</div>
+                    <div className='skill-block__row'>Development of a complex information system for the educational sector.</div>
+                    <div className='skill-block__row'>Class schedule, issuance of school cards, translation of the year, class magazines, lesson-thematic planning, data analysis and visual display, portfolio, personal accounts.</div>
+                    
                 </div>
 
             </div>
@@ -41,7 +43,7 @@ export const SkillsBlock= () => {
                 </div>
 
                 <div className='skill-block__section'>
-                    <div className='skill-block__title'>☀️  Frontend:</div>
+                    <div className='skill-block__title'>☀️  Frontend</div>
                     <div className='skill-block__row'>JavaScript (ES6+)</div>
                     <div className='skill-block__row'>Pure JS OOP / React</div>
                     <div className='skill-block__row'>Redux Toolkit / Redux / Redux Thunk</div>
@@ -49,13 +51,13 @@ export const SkillsBlock= () => {
                     <div className='skill-block__row'>SCSS / styled-components / CSS Modules </div>
                     <div className='skill-block__row'>Material UI / Semantic UI / Ant Design</div>
                     <div className='skill-block__row'>Gulp / Rollup / Webpack</div>
-                    <div className='skill-block__row'></div>
+                    <div className='skill-block__row'>Chart JS</div>
                     <div className='skill-block__row'></div>
                     <div className='skill-block__row'></div>
                 </div>
 
                 <div className='skill-block__section'>
-                    <div className='skill-block__title'>🌙  Backend:</div>
+                    <div className='skill-block__title'>🌙  Backend</div>
                     <div className='skill-block__row'>Node.JS / Express </div>
                     <div className='skill-block__row'>MongoDB / Mongoose</div>
                     <div className='skill-block__row'>JWT </div>
@@ -63,7 +65,7 @@ export const SkillsBlock= () => {
                 </div>
                 
                 <div className='skill-block__section'>
-                    <div className='skill-block__title'>Other skills:</div>
+                    <div className='skill-block__title'>Other skills</div>
                     <div className='skill-block__row'>Git / GitHub </div>
                     <div className='skill-block__row'>SOLID</div>
                     <div className='skill-block__row'>Docker </div>
