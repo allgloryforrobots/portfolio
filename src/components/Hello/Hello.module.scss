@@ -23,15 +23,15 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-
-        .menu__item {
-            display: flex;
-            justify-content: flex-end;
-            width: 8rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            margin-bottom: 0.2rem;
-        }
     }
 
+}
+
+.menu__item {
+    display: flex;
+    justify-content: flex-end;
+    width: 8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
 }

@@ -1,5 +1,5 @@
 import './scss/app.scss'
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'
 import { MainPage, ContactsPage, ProjectsPage, SkillsPage } from './pages/'
 
 function App() {
