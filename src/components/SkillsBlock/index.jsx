@@ -32,7 +32,6 @@ export const SkillsBlock= () => {
                     <div className={styles.skillBlock__title}>About</div>
                     <div className={styles.skillBlock__row}>Development of a complex information system for the educational sector.</div>
                     <div className={styles.skillBlock__row}>Class schedule, issuance of school cards, translation of the year, class magazines, lesson-thematic planning, data analysis and visual display, portfolio, personal accounts.</div>
-                    
                 </div>
 
             </div>
