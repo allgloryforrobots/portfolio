@@ -25,6 +25,11 @@
     font-family: "DINPro";
 }
 
+html {
+    font-size: 14px;
+    font-size: calc(12px + 0.5vw);
+}
+
 body {
     overflow: hidden;
 }
