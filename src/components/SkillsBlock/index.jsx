@@ -46,7 +46,7 @@ export const SkillsBlock= () => {
                     <div className={styles.skillBlock__title}>☀️  Frontend</div>
                     <div className={styles.skillBlock__row}>JavaScript (ES6+)</div>
                     <div className={styles.skillBlock__row}>Pure JS OOP / React</div>
-                    <div className={styles.skillBlock__row}>Redux Toolkit / Redux / Redux Thunk</div>
+                    <div className={styles.skillBlock__row}>Redux Toolkit / Redux / Thunk</div>
                     <div className={styles.skillBlock__row}>React Hook Form</div>
                     <div className={styles.skillBlock__row}>SCSS / styled-components / CSS Modules </div>
                     <div className={styles.skillBlock__row}>Material UI / Semantic UI / Ant Design</div>

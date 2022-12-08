@@ -1,0 +1,22 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    &__mailbox {
+        height: 10rem;
+        width: 20rem;
+
+
+        .mailbox {
+            &__title {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+
+            
+        }
+    }
+}
