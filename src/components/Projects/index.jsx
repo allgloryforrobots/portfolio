@@ -97,6 +97,16 @@ export const Projects = () => {
                     Visual display and data analytics. Sorting, filtering, graphs, workspace customization, highlighting indicators that deviate from the norm
                 </div>
 
+                <div className={styles.project__block}>
+                    <em>Case: </em> Complex business logic. 
+                    Data sampling was carried out in various ways depending on the situation. 
+                    The data storage structures were different for each specific case.
+                </div>
+
+                <div className={styles.project__block}>
+                    <em>Task: </em>  Creation of application architecture. OOP. Strict adherence to the principles of SOLID. 
+                </div>
+
             </div>
 
 
@@ -114,6 +124,10 @@ export const Projects = () => {
                     Mobile QR-scanning app. Scanning a receipt, obtaining information on the product, generating a return request
                 </div>
 
+                <div className={styles.project__block}>
+                    <em>Task: </em> Quickly write a mobile application
+                </div>
+
             </div>
 
 
@@ -127,6 +141,11 @@ export const Projects = () => {
                     <div className={styles.project__tags}>
                         <div className={styles.project__tag}>Self project</div>
                     </div>
+
+                    <div className={styles.project__block}>
+                        <em>Task: </em> create the right architecture in the mern stack
+                    </div>
+
                 </div>
 
             </div>
@@ -143,7 +162,7 @@ export const Projects = () => {
                 </div>
 
                 <div className={styles.project__block}>
-                    Animated layout whitch containing basic information
+                    <em>Task: </em> ask about myself, create design and cool animations
                 </div>
 
             </div>
