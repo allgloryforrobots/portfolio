@@ -168,6 +168,26 @@ export const Projects = () => {
 
                 </div>
 
+                <div className={clsx(styles.projects__card, styles.projects__card_twice)}>
+
+                    <div className={styles.project__title}>
+                        <div className={styles.project__name}>Data ID</div>
+
+                        <div className={styles.project__tags}>
+                            <div className={styles.project__tag}>Refactoring</div>
+                        </div>
+                    </div>
+
+                    <div className={styles.project__block}>
+                        Data Analisys application
+                    </div>
+
+                    <div className={styles.project__block}>
+                        <em>Task: </em> Fix JWT middleware, express error handlers, gulp-file refactoring, usability improvements etc.
+                    </div>
+
+                </div>
+
 
             </div>
         </>
